@@ -1,6 +1,19 @@
 {
   "dependencies": {
+    "axios": "^0.26.0",
     "dotenv": "^16.0.0",
     "express": "^4.17.3"
-  }
+  },
+  "engines":{
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "news-microservice",
+  "description": "This repo contains the code for the news microservice",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC"
 }
